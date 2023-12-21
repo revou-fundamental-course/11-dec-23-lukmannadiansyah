@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A University</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img class="logo" src="assets/logo.png" alt="university" width="70px" height="70px" />
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#achievement">Achievement</a>
+        <a href="#message">Message Us</a>
+      </div>
+    </nav>
+    <header class="header">
+      <h1 class="welcome-to">HI <span id="your-name"></span>, WELCOME TO OUR WEBSITE</h1>
+      <div class="slider">
+        <img class="slider-image" src="assets/header-img/banner.jpg" alt="university" style="display: block" />
+        <img class="slider-image" src="assets/header-img/banner-1.jpg" alt="university" style="display: none" />
+        <img class="slider-image" src="assets/header-img/banner-2.jpg" alt="university" style="display: none" />
+      </div>
+    </header>
+    <section id="about" class="about">
+      <h1>About the University of A</h1>
+      <p class="about-me">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, veniam delectus assumenda ducimus sapiente iste perspiciatis voluptate pariatur eum sed impedit quo quaerat voluptates, quas quod doloribus expedita porro aperiam
+        tenetur? Quasi modi quos reiciendis provident ipsum sequi sint autem blanditiis. Sequi, sed quo incidunt facilis dolor, repellat debitis hic voluptatem placeat provident, autem nisi. Inventore sit recusandae quas minima laboriosam
+        illum, aliquam, sint tempora delectus quisquam ducimus? Vitae assumenda odit non a pariatur expedita consectetur eaque laborum officia saepe.
+      </p>
+      <div class="row">
+        <div class="about-card">
+          <h3 class="visi-misi">VISION</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ab iure ratione ipsum beatae quod eveniet provident reiciendis cumque ducimus praesentium, pariatur quam voluptatem nam!</p>
+        </div>
+        <div class="about-card">
+          <h3 class="visi-misi">MISSION</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi soluta voluptatum, dolorem quos sed libero ipsa fugit tempora molestiae. Enim atque ipsum iusto doloribus fugiat?</p>
+        </div>
+      </div>
+      <h1 class="tittle">Facilities</h1>
+      <div class="facilities">
+        <div class="container">
+          <div class="laboratory-card"></div>
+          <h3 class="tittle-card">Laboratory</h3>
+        </div>
+        <div class="container">
+          <div class="sportField-card"></div>
+          <h3 class="tittle-card">Sport Field</h3>
+        </div>
+        <div class="container">
+          <div class="library-card"></div>
+          <h3 class="tittle-card">Library</h3>
+        </div>
+        <div class="container">
+          <div class="canteen-card"></div>
+          <h3 class="tittle-card">Canteen</h3>
+        </div>
+      </div>
+    </section>
+    <section id="achievement" class="achievement">
+      <div class="container">
+        <h1>Achievement</h1>
+        <div class="achievement-content">
+          <h4>1st place in student competition</h4>
+          <p class="date">11-01-2021</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure unde necessitatibus accusantium rerum esse. Vel aspernatur architecto distinctio assumenda quos sint, aperiam dolorem impedit minima odio accusantium provident,
+            dignissimos officia.
+          </p>
+        </div>
+        <div class="achievement-content">
+          <h4>2st place in student competition</h4>
+          <p class="date">08-01-2021</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure unde necessitatibus accusantium rerum esse. Vel aspernatur architecto distinctio assumenda quos sint, aperiam dolorem impedit minima odio accusantium provident,
+            dignissimos officia.
+          </p>
+        </div>
+        <div class="achievement-content">
+          <h4>3st place in student competition</h4>
+          <p class="date">05-01-2021</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure unde necessitatibus accusantium rerum esse. Vel aspernatur architecto distinctio assumenda quos sint, aperiam dolorem impedit minima odio accusantium provident,
+            dignissimos officia.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="message" class="message">
+      <h1 class="message-tittle">Message Us</h1>
+      <div class="message-container">
+        <div class="message-content">
+          <form name="my-form" onsubmit="return validateForm()">
+            <div class="input-group">
+              <label for="fname">Name</label><br />
+              <input class="input-name" type="text" placeholder="" name="fname" />
+            </div>
+            <div class="input-group">
+              <label for="fbirthDate">Birth Date</label><br />
+              <input class="input-birthDate" type="date" id="birthDate" name="fbirthDate" />
+            </div>
+            <div class="input-group">
+              <label for="fgender">Gender</label><br />
+              <input type="radio" id="male" name="fgender" value="male" />
+              <label for="male">Male</label>
+              <input type="radio" id="female" name="fgender" value="female" />
+              <label for="female">Female</label><br />
+            </div>
+            <div class="input-group">
+              <label for="fmessage">Message</label><br />
+              <textarea name="fmessage" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" id="btn" value="submit" class="btn">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+      <div id="displayValues" class="display-values"></div>
+    </section>
+    <footer class="footer">
+      <div class="credit">
+        <p>Created by <a href="https://www.instagram.com/lukemana_?igsh=NGVhN2U2NjQ0Yg==">lukemana</a> | &copy; 2023.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

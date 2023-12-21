@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0ece5;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  background-color: #2d9596;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 3%;
+  box-shadow: 0px 1px 3px rgba(25, 17, 11, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-nav a {
+  display: inline-block;
+  color: #dfdfdf;
+  font-size: 1.7rem;
+  margin: 0 1rem;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #ffc436;
+}
+
+/* Header */
+.header {
+  margin-top: 2rem;
+  padding: 6.4rem 5% 1.2rem;
+}
+
+.header .welcome-to {
+  margin-bottom: 2rem;
+  color: #31304d;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.slider-image {
+  max-width: 100%;
+}
+
+/* About */
+.about,
+.achievement,
+.message {
+  padding: 6.7rem 5% 1.2rem;
+}
+
+.about h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #31304d;
+}
+
+.about .about-me {
+  color: #31304d;
+  font-size: 1.2rem;
+  margin-top: 0.8rem;
+  max-width: 60rem;
+}
+
+.about .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.about .row .about-card {
+  border: 1px solid #2d949696;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  height: 12rem;
+  width: 29rem;
+}
+
+.about .row .about-card .visi-misi {
+  color: #31304d;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.about .row .about-card p {
+  color: #31304dd0;
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.about .tittle {
+  color: #31304d;
+  font-size: 2rem;
+  margin-left: 0;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.about .facilities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+
+.about .facilities .container .tittle-card {
+  font-size: 1.2rem;
+}
+
+.about .facilities .laboratory-card {
+  background-image: url(/assets/facilities-img/laboratory.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1.7rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.about .facilities .sportField-card {
+  background-image: url(/assets/facilities-img/sport-field.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1.7rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.about .facilities .library-card {
+  background-image: url(/assets/facilities-img/library.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1.7rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.about .facilities .canteen-card {
+  background-image: url(/assets/facilities-img/canteen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 1.7rem;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.about .facilities .container h3 {
+  color: #31304d;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+/* Achievement */
+.achievement .container h1 {
+  color: #31304d;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.achievement .container .achievement-content {
+  margin-top: 1.8rem;
+}
+
+.achievement .container .achievement-content h4 {
+  color: #31304d;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.achievement .container .achievement-content .date {
+  margin-top: 0.8rem;
+  color: #31304d94;
+  font-size: 0.9rem;
+}
+.achievement .container .achievement-content p {
+  color: #31304dd0;
+  font-size: 1rem;
+  max-width: 60rem;
+}
+
+/* Message Us */
+.message .message-tittle {
+  color: #31304d;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.message .message-container {
+  display: flex;
+  justify-content: center;
+}
+
+.message .message-content {
+  background-color: #2d9596;
+  border-radius: 5px;
+  border: 1px solid #31304d;
+  width: 32rem;
+  height: auto;
+  margin-top: 2rem;
+  padding: 1.4rem 1.6rem;
+}
+
+.message .input-group {
+  margin-bottom: 8px;
+}
+
+.message .message-content label {
+  color: #f0ece5;
+  font-size: 1.2rem;
+}
+
+.message .message-content .input-group .input-name {
+  width: 100%;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #31304d;
+}
+
+.message .message-content .input-group .input-birthDate {
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #31304d;
+}
+
+.message .message-content textarea {
+  width: 100%;
+  height: 6rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid #31304d;
+}
+
+.message .message-content .btn {
+  color: #31304d;
+  font-size: 1.2rem;
+  font-weight: 700;
+  width: 15rem;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  margin: 1.2rem auto 0;
+  padding: 0.5rem 0.7rem;
+  background-color: #ffc436;
+  box-shadow: 0px 1px 2px rgba(25, 17, 11, 0.5);
+  cursor: pointer;
+}
+
+.message .message-content .btn:hover {
+  background-color: #ffcd58;
+}
+
+.message .display-values {
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #2d9596;
+  text-align: end;
+  padding: 1rem 0 1rem;
+  margin-top: 3rem;
+}
+
+footer .credit {
+  font-size: 0.8rem;
+  color: #f0ece5;
+  margin-right: 1rem;
+}
+
+footer .credit a {
+  color: #31304d;
+  font-weight: 700;
+}
+
+/* Media Query */
+/* Mobile Phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 40%;
+  }
+  .navbar {
+    padding: 0.2rem 2%;
+  }
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+}

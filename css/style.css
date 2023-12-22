@@ -127,7 +127,11 @@ body {
 }
 
 .about .facilities .laboratory-card {
+<<<<<<< HEAD
   background-image: url('./assets/facilities-img/laboratory.jpg');
+=======
+  background-image: url(./assets/facilities-img/laboratory.jpg);
+>>>>>>> 91417454b0a4923487badaad9a6f9b3c811814f9
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -138,7 +142,11 @@ body {
 }
 
 .about .facilities .sportField-card {
+<<<<<<< HEAD
   background-image: url('./assets/facilities-img/sport-field.jpg');
+=======
+  background-image: url(./assets/facilities-img/sport-field.jpg);
+>>>>>>> 91417454b0a4923487badaad9a6f9b3c811814f9
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -149,7 +157,11 @@ body {
 }
 
 .about .facilities .library-card {
+<<<<<<< HEAD
   background-image: url('./assets/facilities-img/library.jpg');
+=======
+  background-image: url(./assets/facilities-img/library.jpg);
+>>>>>>> 91417454b0a4923487badaad9a6f9b3c811814f9
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +172,11 @@ body {
 }
 
 .about .facilities .canteen-card {
+<<<<<<< HEAD
   background-image: url('./assets/facilities-img/canteen.jpg');
+=======
+  background-image: url(./assets/facilities-img/canteen.jpg);
+>>>>>>> 91417454b0a4923487badaad9a6f9b3c811814f9
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

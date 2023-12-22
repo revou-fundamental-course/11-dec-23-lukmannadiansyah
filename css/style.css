@@ -127,7 +127,7 @@ body {
 }
 
 .about .facilities .laboratory-card {
-  background-image: url('./assets/facilities-img/laboratory.jpg');
+  background-image: url('../assets/facilities-img/laboratory.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -138,7 +138,7 @@ body {
 }
 
 .about .facilities .sportField-card {
-  background-image: url('./assets/facilities-img/sport-field.jpg');
+  background-image: url('../assets/facilities-img/sport-field.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -149,7 +149,7 @@ body {
 }
 
 .about .facilities .library-card {
-  background-image: url('./assets/facilities-img/library.jpg');
+  background-image: url('../assets/facilities-img/library.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -160,7 +160,7 @@ body {
 }
 
 .about .facilities .canteen-card {
-  background-image: url('./assets/facilities-img/canteen.jpg');
+  background-image: url('../assets/facilities-img/canteen.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -308,13 +308,19 @@ footer .credit a {
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 40%;
+    font-size: 70%;
   }
   .navbar {
     padding: 0.2rem 2%;
   }
   .logo {
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
+  }
+  .navbar .navbar-nav a {
+    display: inline-block;
+    color: #dfdfdf;
+    font-size: 1.2rem;
+    margin: 0 0.8rem;
   }
 }

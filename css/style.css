@@ -7,6 +7,10 @@
   text-decoration: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #f0ece5;
@@ -123,7 +127,7 @@ body {
 }
 
 .about .facilities .laboratory-card {
-  background-image: url(/assets/facilities-img/laboratory.jpg);
+  background-image: url('./assets/facilities-img/laboratory.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -134,7 +138,7 @@ body {
 }
 
 .about .facilities .sportField-card {
-  background-image: url(/assets/facilities-img/sport-field.jpg);
+  background-image: url('./assets/facilities-img/sport-field.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -145,7 +149,7 @@ body {
 }
 
 .about .facilities .library-card {
-  background-image: url(/assets/facilities-img/library.jpg);
+  background-image: url('./assets/facilities-img/library.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -156,7 +160,7 @@ body {
 }
 
 .about .facilities .canteen-card {
-  background-image: url(/assets/facilities-img/canteen.jpg);
+  background-image: url('./assets/facilities-img/canteen.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

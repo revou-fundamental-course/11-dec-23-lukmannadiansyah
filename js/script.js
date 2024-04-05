@@ -1,4 +1,4 @@
-document.getElementById('your-name').innerHTML = 'LUKMAN';
+document.getElementById('your-name').innerHTML = ',';
 
 let currentIndex = 0;
 const images = document.querySelectorAll('.slider-image');

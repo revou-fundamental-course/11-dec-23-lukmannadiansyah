@@ -310,13 +310,20 @@ footer .credit a {
   html {
     font-size: 70%;
   }
+
   .navbar {
     padding: 0.2rem 2%;
   }
+
   .logo {
     width: 35px;
     height: 35px;
   }
+
+  .header {
+    margin-top: 0.5rem;
+  }
+
   .navbar .navbar-nav a {
     display: inline-block;
     color: #dfdfdf;
